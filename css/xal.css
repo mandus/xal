@@ -27,7 +27,8 @@ IMG.displayed {
 /* Set the fixed height of the footer */
 #footer {
    height: 60px;
-   background-color: #f2f2f2;
+   color: #ccccff;
+   background-color: #000000;
 }
 
 /* Responsive fixes as necessary */
@@ -40,3 +41,12 @@ IMG.displayed {
    }
 }
 
+.container {
+   width: auto;
+   max-width: 1024px;
+   padding: 0 15px;
+}
+
+.container .credit {
+   margin: 20px 0;
+}
