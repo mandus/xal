@@ -13,6 +13,14 @@ IMG.displayed {
   padding: 40px 15px;
 }
 
+/* Overlay to grey out inactive flags */
+#overlay-flag {
+   position: absolute;
+   width: 30px; 
+   height: 20px; 
+   background-color: gray;
+   opacity: .8;
+}
 
 /* Wrapper for page content to push down footer */
 #wrap {
@@ -51,3 +59,4 @@ IMG.displayed {
 .container .credit {
    margin: 20px 0;
 }
+
