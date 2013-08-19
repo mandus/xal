@@ -65,3 +65,7 @@ IMG.displayed {
 .inlinedisplay {
    display: inline;
 }
+
+.italictext {
+   font-style: italic;
+}
