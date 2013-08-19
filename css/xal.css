@@ -15,10 +15,6 @@ IMG.displayed {
 
 /* Overlay to grey out inactive flags */
 #overlay-flag {
-   width: 30px; 
-   height: 20px; 
-   background-color: gray;
-   opacity: .8;
    display: inline;
 }
 
