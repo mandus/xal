@@ -19,6 +19,7 @@ IMG.displayed {
    height: 20px; 
    background-color: gray;
    opacity: .8;
+   display: inline;
 }
 
 /* Wrapper for page content to push down footer */
