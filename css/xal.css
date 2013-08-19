@@ -22,6 +22,12 @@ IMG.displayed {
    display: inline;
 }
 
+#overlay-flag img {
+   padding: 1px;
+   border: 1px solid #ccc;
+   margin 1px;
+}
+
 /* Wrapper for page content to push down footer */
 #wrap {
    min-height: 100%;
