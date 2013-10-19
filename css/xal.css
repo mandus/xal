@@ -69,3 +69,8 @@ IMG.displayed {
 .italictext {
    font-style: italic;
 }
+
+.pull-right {
+   margin-top: 10px;
+   margin-right: 10px;
+}
