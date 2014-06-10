@@ -11,6 +11,7 @@ IMG.displayed {
   margin-right: auto;
   text-align: center;
   padding: 40px 15px;
+  max-width: 30%;
 }
 
 /* Overlay to grey out inactive flags */
