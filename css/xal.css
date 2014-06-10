@@ -14,6 +14,15 @@ IMG.displayed {
   max-width: 30%;
 }
 
+IMG.small-display {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 40px 15px;
+  max-width: 10%;
+}
+
 /* Overlay to grey out inactive flags */
 #overlay-flag {
    display: inline;
