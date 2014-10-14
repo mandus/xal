@@ -2,6 +2,7 @@ html,
 body {
    height: 100%;
    font-family: 'Noto Sans', sans-serif;
+   padding-top: 60px;
    /* The html and body elements cannot have any padding or margin */
 }
 
@@ -60,12 +61,6 @@ IMG.small-display {
       padding-left: 20px;
       padding-right: 20px;
    }
-}
-
-@media (min-width: 980px) {
-    body {
-        padding-top: 60px;
-    }
 }
 
 .container {
