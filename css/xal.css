@@ -64,7 +64,7 @@ IMG.small-display {
 
 @media (min-width: 980px) {
     body {
-        padding: 60px;
+        padding-top: 60px;
     }
 }
 
