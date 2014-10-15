@@ -62,6 +62,14 @@ IMG.small-display {
     margin-bottom: 60px; 
     width: 700px;
 }
+
+.navbar-brand {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 50px;
+    margin-left: 0px;
+}
 /* Responsive fixes as necessary */
 @media (max-width: 767px) {
    #footer {
