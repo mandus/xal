@@ -15,7 +15,7 @@ IMG.displayed {
   margin-right: auto;
   text-align: center;
   padding: 40px 15px;
-/*  max-width: 30%; */
+  max-width: 30%; 
 }
 
 
@@ -65,6 +65,11 @@ IMG.small-display {
       padding-left: 20px;
       padding-right: 20px;
    }
+
+   IMG.displayed {
+       max-width: 100%;
+   }
+
 }
 
 .container {
