@@ -70,6 +70,7 @@ IMG.small-display {
     width: 50px;
     margin-left: 0px;
     margin-top: 0px;
+    padding-top: 0px;
 }
 /* Responsive fixes as necessary */
 @media (max-width: 767px) {
