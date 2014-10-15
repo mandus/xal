@@ -34,9 +34,9 @@ IMG.small-display {
 }
 
 #overlay-flag img {
-   padding: 1px;
-   border: 1px solid #666;
-   margin 1px;
+   padding: 0px;
+   border: 2px solid #666;
+   margin 0px;
 }
 
 /* Wrapper for page content to push down footer */
