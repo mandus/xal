@@ -29,14 +29,14 @@ IMG.small-display {
 }
 
 /* Overlay to grey out inactive flags */
-#overlay-flag {
+/*#overlay-flag {
    display: inline;
-}
+}*/
 
 #overlay-flag img {
-   padding: 0px;
+   padding: 1px;
    border: 2px solid #666;
-   margin 0px;
+   margin 1px;
 }
 
 /* Wrapper for page content to push down footer */
