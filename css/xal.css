@@ -9,7 +9,7 @@ body{
     padding-top: 60px;
 }
 
-IMG.displayed {
+/*IMG.displayed {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -17,6 +17,7 @@ IMG.displayed {
   padding: 40px 15px;
   max-width: 30%;
 }
+*/
 
 IMG.small-display {
   display: inline;
