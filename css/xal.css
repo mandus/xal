@@ -63,7 +63,11 @@ IMG.small-display {
     width: 700px;
 }
 
-.navbar-brand {
+.navbar-nav li a {
+    line-height: 50px;
+}
+
+/*.navbar-brand {
     position: absolute;
     left: 0px;
     top: 0px;
@@ -71,7 +75,8 @@ IMG.small-display {
     margin-left: 0px;
     margin-top: 0px;
     padding-top: 0px;
-}
+} */
+
 /* Responsive fixes as necessary */
 @media (max-width: 767px) {
    #footer {
