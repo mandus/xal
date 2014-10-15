@@ -59,8 +59,8 @@ IMG.small-display {
 
 .carousel {
     margin: 0 auto;
-/*    margin-bottom: 60px; */
-    width: 400px;
+    margin-bottom: 60px; 
+    width: 700;
 }
 /* Responsive fixes as necessary */
 @media (max-width: 767px) {
