@@ -57,6 +57,11 @@ IMG.small-display {
    background-color: #000000;
 }
 
+.carousel {
+    margin: 0 auto;
+/*    margin-bottom: 60px; */
+    width: 400px;
+}
 /* Responsive fixes as necessary */
 @media (max-width: 767px) {
    #footer {
@@ -71,6 +76,9 @@ IMG.small-display {
        max-width: 100%;
    }
 
+   .carousel {
+       width: 100%
+   }
 }
 
 .container {
@@ -96,6 +104,4 @@ IMG.small-display {
    margin-right: 10px;
 }
 
-.carousel {
-    margin-bottom: 60px;
-}
+
