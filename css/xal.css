@@ -73,15 +73,6 @@ IMG.small-display {
     margin-bottom: -99999px;
     padding-bottom: 99999px;
 }
-.col-base {
-    margin-top: -15px;
-}
-}
-
-@media (max-width: 767px){
-.row.base{
-    display:none;
-}
 }
 
 .col-wrap {
