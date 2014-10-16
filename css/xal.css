@@ -67,6 +67,15 @@ IMG.small-display {
     line-height: 50px;
 }
 
+.col-fill .well-fill {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.col-wrap {
+    overflow: hidden;
+}
+
 /*.navbar-brand {
     position: absolute;
     left: 0px;
