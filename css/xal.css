@@ -68,9 +68,14 @@ IMG.small-display {
 }
 
 
-.col-fill .well-fill {
+.well-fill {
     margin-bottom: -99999px;
     padding-bottom: 99999px;
+}
+
+.col-fill {
+    margin-bottom: -99999px;
+    padding-bottom: 100005px;
 }
 
 .col-wrap {
