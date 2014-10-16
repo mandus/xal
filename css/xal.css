@@ -63,6 +63,10 @@ IMG.small-display {
     width: 700px;
 }
 
+.carousel-caption {
+    color: black;
+}
+
 .navbar-nav li a {
     line-height: 50px;
 }
