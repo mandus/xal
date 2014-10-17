@@ -67,9 +67,11 @@ IMG.small-display {
     color: black;
 }
 
-.carousel-control.left .carousel-control.right {
-    background-image: none;
-
+.carousel-control {
+     &.left, &.right {
+        background-image: none;
+        .reset-filter();
+    }
 }
 
 .navbar-nav li a {
