@@ -67,11 +67,12 @@ IMG.small-display {
     color: black;
 }
 
-.carousel-control {
-     &.left, &.right {
-        background-image: none;
-        .reset-filter();
-    }
+.carousel-indicators li {
+    background-color: white;
+}
+
+.carousel-indicators .active {
+    background-color: white;
 }
 
 .navbar-nav li a {
