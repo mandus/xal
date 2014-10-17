@@ -68,7 +68,8 @@ IMG.small-display {
 }
 
 .carousel-control.left .carousel-control.right {
-    background-image: none
+    background-image: none;
+
 }
 
 .navbar-nav li a {
