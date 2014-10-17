@@ -68,11 +68,19 @@ IMG.small-display {
 }
 
 .carousel-indicators li {
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .carousel-indicators .active {
-    background-color: white;
+    background-color: #ffffff;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
 }
 
 .navbar-nav li a {
