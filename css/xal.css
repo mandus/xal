@@ -67,6 +67,10 @@ IMG.small-display {
     color: black;
 }
 
+.carousel-control.left .carousel-control.right {
+    background-image: none
+}
+
 .navbar-nav li a {
     line-height: 50px;
 }
