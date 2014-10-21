@@ -12,75 +12,171 @@
 </head>
 <body>
 
-<div id="header">
-   <div class="pull-right">
-      <div class="inlinedisplay">
-         <div id="overlay-flag">
-            <a href="index.html"><img src="graphics/no.png" alt="NO" /></a>
-         </div><!-- /#overlay -->
-         <a href="index_en.html"><img src="graphics/gb.png" alt="EN" /></a>
-      </div><!-- /.inlinedisplay -->
-   </div><!-- /.pull-right -->
-</div> <!-- /#header -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img height="50px" src="graphics/logo_transparent_cropped.png"></a>
+    </div>
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Hjem</a></li>
+        <li><a href="konsulenter.html">Konsulenter</a></li>
+        <li><a href="referanser.html">Referanser</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html"><img src="graphics/no.png" alt="NO" style="border:2px solid #666; padding:1px"/></a></li>
+            <li><a href="index_en.html"><img src="graphics/gb.png" alt="EN" /></a></li>
+        </ul>
+    </div><!--/.nav-collapse -->
+    </div>
+</div>
 
 <div id="wrap"> <!-- wrap page to move footer down -->
-   <div class="container">
-      <div class="displayed">
-         <!-- the logo big and centered -->
-         <img class="img-responsive displayed" src="graphics/logo.png">
-      </div> <!-- /.displayed -->
-   </div> <!-- /.container -->
 
-   <div class="container">
-      <div class="row">
-         <div class="col-xs-6 col-md-6">
+    <!-- XAL logo -->
+    <!--div class="container"-->
+        <!--div class="displayed"-->
+            <!-- the logo big and centered -->
+            <!--img class="img-responsive displayed" src="graphics/logo.png"-->
+        <!--/div--> <!-- /.displayed -->
+    <!--/div--> <!-- /.container -->
+
+    <!-- Carousel -->
+    <div id="xal-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#xal-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#xal-carousel" data-slide-to="1"></li>
+            <li data-target="#xal-carousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <a href="#tjenester">
+                    <img src="graphics/logo_notext_1900x1080.png" alt="slide1" width="100%">
+                    <div class="container">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="mcash.html">
+                    <img src="graphics/logo_mcash_1900x1080.png" alt="slide2", width="100%">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h3>Trenger du MCash-integrasjon? Vi var med og utviklet programvaren!</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="konsulenter.html">
+                    <img src="http://placehold.it/1900x1080&text=Slide Three" alt="slide3", width="100%">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h3>Tredje slide!</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#xal-carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#xal-carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div><!-- Carousel -->
+
+    <!-- Front page text -->
+    <div class="container" id="tjenester">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-center">Velkommen til Expert Analytics AS!</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+                    <p class="text-center"><span class="glyphicon glyphicon-cog" style="font-size:50px;"></span></p>
+                    <p class="text-center">Vi leverer programvaretjenester for deg! Våre konsulenter har bred kompetanse innen scripting, utvikling av biblioteker, APIer, applikasjoner og systemintegrasjon.</p>
+            </div>
+            <div class="col-xs-4">
+                    <p class="text-center"><span class="glyphicon glyphicon-stats" style="font-size:50px;"></span></p>
+                    <p class="text-center"> Vi gir data-basert rådgivning! Vi kan utvikle numeriske modeller og utføre statistiske analyser av data som er relevante for ditt selskap.</p>
+            </div>
+            <div class="col-xs-4">
+                    <p class="text-center"><span class="glyphicon glyphicon-cloud" style="font-size:50px;"></span></p>
+                    <p class="text-center"> Vi kan Big Data! Vi hjelper deg med å organisere og omsette dine data til verdifull informasjon!</p>
+            </div>
+        </div> 
+        <!--
+            <div class="col-xs-6 col-md-6">
             <p>Expert Analytics AS er et konsulentselskap spunnet ut fra Simula Research Laboratory. Vi leverer 
             tjenester innen programvareutvikling, scripting og rådgivning. Våre medarbeidere har en bred 
             kompetanse innen analyse, algoritmeforståelse, utvikling av APIer, biblioteker, applikasjoner og 
             systemintegrasjon.</p>
             <p>Vi leverer høy kvalitet til konkurransedyktige priser.</p>
-         </div><!-- column -->
+         </div>
 
          <div class="col-xs-6 col-md-6">
 
             <div class="well italictext">
-               <p>Ønsker du en <a href="http://mca.sh">mCASH integrasjon</a>? -
+               <p>Ønsker du en <a href="http://mca.sh">mCASH-integrasjon</a>? -
                Vi deltok <a href="mcash.html">i utviklingen og kan hjelpe
                   deg!</a></p>
-            </div><!-- /.well -->
+            </div>< /.well -->
 
             <!--
             <div class="well italictext">
                <p>Ønsker du en løsning basert på Google App Engine og Python? Vi har kompetansen!</p>
-            </div>--><!-- /.well -->
+            </div>>< /.well >
 
             <div class="well italictext">
                <p>Vi har seniorkonsulenter ledige for nye oppdrag!</p>
-            </div><!-- /.well -->
+            </div>< /.well >
 
-            <!--
           <div class="well italictext">
             <p>Big Data eller Live Data? Vi hjelper deg med å organisere og omsette dine data til 
             verdifull informasjon.</p>
-          </div>--> <!-- /.well -->
+          </div>>
 
-         </div><!-- column -->
-      </div> <!-- /.row -->
+         </div>< column >
+      </div> </.row -->
    </div> <!-- /.container -->
 
    <div class="container">
-      <p>Kontakt oss: <a href="mailto:post@xpertanalytics.no">e-post</a>
-      eller telefon: +47 900 69 915.</p>
-      <p><a href="https://twitter.com/xpertanalytics" class="twitter-follow-button" data-show-count="false"
-         data-lang="en">Follow</a> </p>
-      <p><div class="fb-like" data-href="https://www.facebook.com/XpertAnalytics" data-width="500" data-show-faces="false"
-         data-send="true"></div></p>
+       <div class="row">
+           <div class=col-xs-12>
+                <p class="text-center">Kontakt oss: <a href="mailto:post@xpertanalytics.no">e-post</a>
+                eller telefon: +47 900 69 915.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <p class="text-center"><a href="https://twitter.com/xpertanalytics" class="twitter-follow-button" data-show-count="false"
+                data-lang="en">Follow</a> </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div style="margin: 0 auto; width: 95px;">
+                    <p><div class="fb-like" data-href="https://www.facebook.com/XpertAnalytics" data-width="500" data-show-faces="false"
+                data-send="true"></div></p>
+                </div>
+            </div>
+        </div><!-- row-->
    </div><!-- /.container -->
 </div><!-- /#wrap -->
 
 <div id="footer">
    <div class="container">
-      <p class="text-muted credit">Expert Analytics AS | Pb 134, 1325 Lysaker |  Org.nr 912 208 559. &mdash; Et selskap spunnet ut fra <a
+      <p class="text-muted credit text-center">Expert Analytics AS | Pb 134, 1325 Lysaker |  Org.nr 912 208 559. &mdash; Et selskap spunnet ut fra <a
          href="http://simula.no">Simula Research Laboratory</a></p>
    </div><!-- /.container -->
 </div><!-- /#footer -->

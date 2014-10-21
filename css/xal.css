@@ -5,14 +5,19 @@ body {
    /* The html and body elements cannot have any padding or margin */
 }
 
+body{
+    padding-top: 85px;
+}
+
 IMG.displayed {
   display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   padding: 40px 15px;
-  max-width: 30%;
+  max-width: 30%; 
 }
+
 
 IMG.small-display {
   display: inline;
@@ -24,15 +29,15 @@ IMG.small-display {
 }
 
 /* Overlay to grey out inactive flags */
-#overlay-flag {
+/*#overlay-flag {
    display: inline;
-}
+}*/
 
-#overlay-flag img {
-   padding: 1px;
+/*#overlay-flag img {
    border: 2px solid #666;
+   padding: 1px;
    margin 1px;
-}
+}*/
 
 /* Wrapper for page content to push down footer */
 #wrap {
@@ -52,6 +57,60 @@ IMG.small-display {
    background-color: #000000;
 }
 
+.carousel {
+    margin: 0 auto;
+    margin-bottom: 60px; 
+    width: 700px;
+}
+
+.carousel-caption {
+    color: black;
+}
+
+.carousel-indicators li {
+    background-color: #ffffff;
+}
+
+.carousel-indicators .active {
+    background-color: #ffffff;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.navbar-nav li a {
+    line-height: 50px;
+}
+
+
+.well-fill {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.col-fill {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.col-wrap {
+    overflow: hidden;
+}
+/*.navbar-brand {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+} */
+
 /* Responsive fixes as necessary */
 @media (max-width: 767px) {
    #footer {
@@ -59,6 +118,15 @@ IMG.small-display {
       margin-right: -20px;
       padding-left: 20px;
       padding-right: 20px;
+      height: 90px;
+   }
+
+   IMG.displayed {
+       max-width: 100%;
+   }
+
+   .carousel {
+       width: 100%
    }
 }
 
@@ -84,3 +152,5 @@ IMG.small-display {
    margin-top: 10px;
    margin-right: 10px;
 }
+
+
